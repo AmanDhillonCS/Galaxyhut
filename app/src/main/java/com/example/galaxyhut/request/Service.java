@@ -16,7 +16,7 @@ public class Service {
 
     private static NasaApi nasaApi = retrofit.create(NasaApi.class);
 
-    public NasaApi getNasaApi(){
+    public static NasaApi getNasaApi(){
         return nasaApi;
     }
 }
